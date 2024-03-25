@@ -1,0 +1,77 @@
+.row_1 {
+    display: flex;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.row_1 .columns {
+    background-color: gray;
+    height: 50px;
+    flex-grow: 1;
+}
+
+.row_2 {
+    display: flex;
+    column-gap: 15px;
+    border: 15px solid powderblue;
+}
+
+.row_2 .columns {
+    background-color: gray;
+    height: 50px;
+    flex-grow: 1;
+}
+
+.row_3 {
+    display: flex;
+    column-gap: 12px;
+    border: 12px solid powderblue;
+}
+
+.row_3 .column_1 {
+    background-color: gray;
+    height: 50px;
+    flex-grow: 2;
+    border: 2px solid black;
+}
+
+.row_3 .column_2 {
+    background-color: gray;
+    height: 50px;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.row_4 .row_up {
+    display: flex;
+    column-gap: 12px;
+    border: 12px solid powderblue;
+}
+
+.row_4 .row_up .column {
+    background-color: gray;
+    flex-direction: row;
+    height: 50px;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.row_4 .row_down {
+    display: flex;
+    column-gap: 12px;
+    border-left: 12px solid powderblue;
+    border-right: 12px solid powderblue;
+    border-bottom: 12px solid powderblue;
+}
+
+.row_4 .row_down .column {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.rows {
+    background-color: powderblue;
+}
